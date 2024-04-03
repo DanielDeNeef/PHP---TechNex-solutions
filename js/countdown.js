@@ -1,5 +1,5 @@
 // Start countdown with a specific date
-startCountdown("Jun 22, 2024 23:59:00");
+startCountdown("Jun 16, 2024 23:59:00");
 
 /*
  * @description Starts the countdown timer based on the provided target date.
