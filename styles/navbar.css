@@ -1,0 +1,55 @@
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a.nav-active {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav a.nav-right {
+    float: right;
+}
+
+.nav-right {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav a,
+    .nav a.right {
+        float: none;
+        width: 100%;
+    }
+}
