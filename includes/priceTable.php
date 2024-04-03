@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="styles/priceTable.css">
 
-<H2>Prijslijst</H2>
 <div class="price-columns">
     <ul class="price">
         <li class="price-header">Basis</li>
