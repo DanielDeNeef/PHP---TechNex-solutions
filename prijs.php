@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prijs</title>
-    <link rel="stylesheet" href="styles/content.css">
-</head>
 
-<body>
     <!-- header  -->
+    <?php $pageTitle = 'Prijs' ?>
     <?php include 'includes/header.php' ?>
     
     <!-- navbar -->
@@ -17,8 +9,10 @@
 
     <!-- content -->
     <div class="content_wrapper">
-        <div style="height:400px; width:90%; margin:auto; background-color: #b5b5b5e7;">
+        <div style="height:auto; width:90%; margin:auto; background-color: #b5b5b5e7;">
             <h2 style="font-size: 40px; text-align:center">Prijs</h2>
+
+            <?php include 'includes/priceTable.php' ?>
         </div>
     </div>
 
