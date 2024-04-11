@@ -46,6 +46,11 @@
 
         </section>
 
+        <!-- Quote slide -->
+        <section title="quote section">
+            <?php include 'includes/quoteSlide.php' ?>
+        </section>
+
         <!-- User Rating section -->
         <section title="Rating">
             <?php include 'includes/rating.php' ?>

@@ -39,7 +39,6 @@
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
 .price-button {
   background-color: #04aa6d;
   border: none;
@@ -50,8 +49,6 @@
   font-size: 18px;
 }
 
-/* Change the width of the three columns to 100%
-  (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
   .price-columns {
     width: 100%;

@@ -8,7 +8,7 @@
             <p>Wij bieden deskundig advies en begeleiding om uw IT-strategie te optimaliseren, van het verbeteren van de
                 operationele efficiëntie tot het ondersteunen van uw bedrijfsgroei.</p>
             <br>
-            <button class="service-button" style="background-color:#333">Leer meer</button>
+            <button id="modalBtn" class="service-button" style="background-color:#333">Leer meer</button>
         </div>
         <div class="service-column-33">
             <img src="resources/consulting.jpg" width="335" height="471">
@@ -47,3 +47,5 @@
         </div>
     </div>
 </div>
+
+<?php include 'includes/modalMessage.php' ?>
