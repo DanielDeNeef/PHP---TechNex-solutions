@@ -14,6 +14,6 @@
     // Close the CSV file
     fclose($file);
 
-    // Redirect back to the home page (or wherever you want)
+    // Redirect back to the home page
     header('Location: ../index.php');
 ?>
