@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="styles/uploadPrices.css">
 
 <section class="upload-section">
@@ -8,7 +7,7 @@
         <input type="file" name="fileToUpload" id="fileToUpload">
         <input type="submit" value="Upload CSV" name="submit" class="upload-button">
     </form>
-    <div id="progressBar"><div></div></div>
+    <div id="progressBar"><div>
 </section>
 
 <script src="js/uploadPrices.js"
