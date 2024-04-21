@@ -1,0 +1,29 @@
+#toast {
+    visibility: hidden;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    z-index: 1;
+}
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#toast.success {
+    background-color: #4CAF50;
+}
+
+#toast.error {
+    background-color: #f44336;
+}
+
