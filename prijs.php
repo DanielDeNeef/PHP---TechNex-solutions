@@ -15,6 +15,8 @@
         <?php include 'includes/comparisonTable.php' ?>
         <!-- Price table -->
         <?php include 'includes/priceTable.php' ?>
+        <!-- Goodies -->
+        <?php include 'includes/goodies.php' ?>
     </div>
 </div>
 
