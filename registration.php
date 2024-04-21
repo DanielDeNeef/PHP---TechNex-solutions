@@ -7,7 +7,7 @@
 <?php $currentPage = 'registration' ?>
 <?php include 'includes/navbar.php' ?>
 
-<form action="action_page.php" style="border:1px solid #ccc" method="post">
+<form action="controllers/registration_ctrl.php" style="border:1px solid #ccc" method="post">
     <div class="container">
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
