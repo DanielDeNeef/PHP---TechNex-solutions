@@ -1,3 +1,5 @@
+console.log('toast logic is been loaded');
+
 function showToastMessage(type, message) {
     let toast = document.querySelector('#toast');
     toast.textContent = message;
