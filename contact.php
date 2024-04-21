@@ -13,11 +13,13 @@
         <h2 style="font-size: 40px; text-align:center">Contact</h2>
 
         <div class="container">
-            <form action="action_page.php" method="post">
+            <form action="controllers/contact_ctrl.php" method="post">
                 <label for="fname">Voornaam</label>
                 <input type="text" id="fname" name="firstname" placeholder="Uw voornaam..">
                 <label for="lname">Naam</label>
                 <input type="text" id="lname" name="lastname" placeholder="Uw naam..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Uw email..">
                 <label for="country">Land</label>
                 <select id="country" name="country">
                     <option value="" selected></option>
