@@ -7,7 +7,7 @@
 <?php $currentPage = 'nieuwsbrief' ?>
 <?php include 'includes/navbar.php' ?>
 
-<form action="action_page.php" method="post">
+<form action="controllers/newsletter_ctrl.php" method="post">
     <div class="container">
         <h2>Subscribe to our Newsletter</h2>
         <p>Lorem ipsum..</p>
