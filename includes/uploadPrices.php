@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles/uploadPrices.css">
+<link rel="stylesheet" href="styles/upload.css">
 
 <section class="upload-section">
     <h2>Upload Prices</h2>
@@ -10,4 +10,4 @@
     <div id="progressBar"><div>
 </section>
 
-<script src="js/uploadPrices.js"
+<script src="js/uploadProgress.js"></script>
