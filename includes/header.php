@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <?php include 'includes/cookieConsent.php' ?>
     <div class="header">
         <h1>TechNex Solutions</h1>
     </div>
